@@ -1,3 +1,7 @@
+import sys
+print(sys.executable)
+!pip show joblib
+
 import streamlit as st
 import pandas as pd
 import joblib
