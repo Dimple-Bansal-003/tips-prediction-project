@@ -1,6 +1,9 @@
-import sys
-print(sys.executable)
-!pip show joblib
+# tips_streamlit.py
+
+import subprocess
+
+# Check if joblib is installed
+subprocess.run(["pip", "show", "joblib"])
 
 import streamlit as st
 import pandas as pd
